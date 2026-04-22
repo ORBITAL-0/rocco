@@ -1,5 +1,5 @@
 body {
-    background-color: rgb (3, 112, 148);
+    background-color: rgb(3, 112, 148);
 }
 .contenedor {
   display: grid;
@@ -8,14 +8,14 @@ body {
   }
 @media(min-width: 700px) {
     body {
-        background-color:rgb（155,23,153）；
+        background-color:rgb(155,23,153)；
    }
    .contenedor {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 1200px){
+@media(min-width: 1200px){
 .contenedor {
     grid-template-columns: 1fr 1fr 1fr;
   }
