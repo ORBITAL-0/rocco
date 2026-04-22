@@ -1,22 +1,19 @@
-.contenedor {
-  display: flex;
-  flex-wrap: wrap;
+/*MOBILE FIRST*/
+
+body {
+    background-color: rgb(3, 112, 148);
+    border: 50px dotted rgb(0,0,0);
 }
 
-.contenedor p {
-  width: 100%;
-}
-
-/* 2 columnas */
 @media (min-width: 700px) {
-  .contenedor p {
-    width: 50%;
-  }
+    body {
+        background-color: rgb(155, 23, 153);
+    }
+} /*cierre del media 700*/
+
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(206, 199, 3);
+    }
 }
 
-/* 3 columnas */
-@media (min-width: 1200px) {
-  .contenedor p {
-    width: 33.33%;
-  }
-}
